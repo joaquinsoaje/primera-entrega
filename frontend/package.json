@@ -1,0 +1,25 @@
+{
+  "name": "primera-entrega",
+  "version": "1.0.0",
+  "description": "desarrollo de software",
+  "homepage": "https://github.com/joaquinsoaje/primera-entrega#readme",
+  "bugs": {
+    "url": "https://github.com/joaquinsoaje/primera-entrega/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaquinsoaje/primera-entrega.git"
+  },
+  "license": "ISC",
+  "author": "Joaquin Soaje",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":  "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
